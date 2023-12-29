@@ -13,3 +13,6 @@ Steps to create the project:
 5.Implement the logic for saving the list of tasks to a file and loading it back again later.
 
 6.Test the app by running the Python file in your terminal or console.
+
+
+THIS PROJECT IS DONE BY HARITHA.S
