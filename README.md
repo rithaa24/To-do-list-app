@@ -1,18 +1,93 @@
-# To-do-list-app
+To-Do List App
+Overview
+This project is a simple yet powerful to-do list application that helps users manage their tasks effectively. The app allows users to create, edit, and delete tasks, as well as mark them as completed. It is built with modern web technologies and provides a responsive and intuitive user interface.
 
-Steps to create the project:
+Features
+Task Management: Create, edit, delete, and mark tasks as completed.
+Categories: Organize tasks into different categories.
+Due Dates: Set due dates for tasks and receive reminders.
+Responsive Design: Accessible on both desktop and mobile devices.
+Getting Started
+Prerequisites
+Before you begin, ensure you have met the following requirements:
 
-1.Open a new Python file in your favorite text editor or IDE.
+Node.js and npm installed on your system
+A modern web browser (e.g., Chrome, Firefox)
+Installation
+Clone the Repository
 
-2.Define a class Task with attributes such as title, description, and status.
+bash
+Copy code
+git clone https://github.com/yourusername/todo-list-app.git
+cd todo-list-app
+Install Dependencies
 
-3.Define a class ToDoList with methods such as add_task(), delete_task(), view_tasks(), save_tasks(), and load_tasks().
+bash
+Copy code
+npm install
+Set Up Environment Variables
 
-4.Implement the logic for adding a new task to the to-do list, deleting a task from the to-do list, and viewing the current list of tasks.
+Create a .env file in the root directory of the project and add any necessary environment variables:
 
-5.Implement the logic for saving the list of tasks to a file and loading it back again later.
+plaintext
+Copy code
+REACT_APP_API_URL=http://localhost:5000/api
+Running the App
+To start the development server, run the following command:
 
-6.Test the app by running the Python file in your terminal or console.
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000 to view the app.
 
+Building for Production
+To build the app for production, run the following command:
 
-THIS PROJECT IS DONE BY HARITHA.S
+bash
+Copy code
+npm run build
+The production-ready files will be generated in the build directory.
+
+Running the Backend Server
+If the project includes a backend server, navigate to the backend directory and follow these steps:
+
+Install Backend Dependencies
+
+bash
+Copy code
+cd backend
+npm install
+Start the Backend Server
+
+bash
+Copy code
+npm start
+The backend server will typically run on http://localhost:5000.
+
+Usage
+Creating Tasks
+Click the "Add Task" button.
+Enter the task details, including title, description, category, and due date.
+Click "Save" to add the task to your list.
+Editing Tasks
+Click on a task to view its details.
+Click the "Edit" button.
+Update the task details and click "Save."
+Deleting Tasks
+Click on a task to view its details.
+Click the "Delete" button to remove the task from your list.
+Marking Tasks as Completed
+Click the checkbox next to a task to mark it as completed.
+Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+Project maintained by Haritha.S
